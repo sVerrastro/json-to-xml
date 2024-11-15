@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>template</title>
+    <link rel="icon" type="image/png" href="#">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<main>
+	<header>
+		<p class="title">json to xml</p>
+		<p class="subtitle">convert your files</p>
+	</header>
+
+	<body>
+		<div id="main">
+			<div class="box">
+
+				<div class="row">
+					<div class="col mr-2">
+						<p class="title">json</p>
+					</div>
+					<div class="col">
+						<p class="title">xml</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<textarea class="mr-2" id="edit_json"></textarea>
+					</div>
+
+					<div class="col">
+						<textarea id="edit_xml" readonly></textarea>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col text-end mr-2">
+						<button class="button success" id="button_convert">convert</button>
+					</div>
+					<div class="col">
+						<button class="button border-danger" id="button_clear">clear</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+
+	<script src="script.js"></script>
+	
+	<footer>
+		<p id="author">&copy; Sergio Verrastro</p>
+	</footer>
+</main>
+
+</html>
